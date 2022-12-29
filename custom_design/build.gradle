@@ -25,8 +25,8 @@ afterEvaluate {
         }
         repositories {
             maven {
-                name = "CustomDesign"
-                url = uri("https://maven.pkg.github.com/mobinators/custom-design")
+                name = "GitHubPackages"
+                url = uri("https://maven.pkg.github.com/mobinators/CustomDesign")
                 credentials {
                     username = "mobinators"
                     password = "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"
