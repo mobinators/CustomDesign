@@ -11,7 +11,7 @@ afterEvaluate {
                 // Replace with your own group ID.
                 groupId 'com.appytune.custom_design'
                 // Replace with the name of your library
-                artifactId 'custom-design'
+                artifactId 'CustomDesign'
                 version '0.0.1'
             }
             debug(MavenPublication) {
@@ -19,17 +19,17 @@ afterEvaluate {
                 // Replace with your own group ID.
                 groupId 'com.appytune.custom_design'
                 // Replace with the name of your library
-                artifactId 'custom-design'
+                artifactId 'CustomDesign'
                 version '0.0.1'
             }
         }
         repositories {
             maven {
-                name = "custom-design"
+                name = "CustomDesign"
                 url = uri("https://maven.pkg.github.com/mobinators/custom-design")
                 credentials {
                     username = "mobinators"
-                    password = "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"
+                    password = "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"
 
                     /* username = project.findProperty("ext.user") ?: System.getenv("mobinators")
                      password = project.findProperty("ext.key") ?: System.getenv("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")*/
