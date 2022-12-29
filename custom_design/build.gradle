@@ -11,7 +11,7 @@ afterEvaluate {
                 // Replace with your own group ID.
                 groupId 'com.appytune.custom_design'
                 // Replace with the name of your library
-                artifactId 'CustomDesign'
+                artifactId 'customdesign'
                 version '0.0.1'
             }
             debug(MavenPublication) {
@@ -19,7 +19,7 @@ afterEvaluate {
                 // Replace with your own group ID.
                 groupId 'com.appytune.custom_design'
                 // Replace with the name of your library
-                artifactId 'CustomDesign'
+                artifactId 'customdesign'
                 version '0.0.1'
             }
         }
